@@ -50,6 +50,6 @@ The program will output the profit matrix, expected values, and optimal order qu
 
 ## License
 
-This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/seigtm/profit_calculator/tree/main/LICENSE) file for details.
+This project is licensed under the **MIT License** - see the [LICENSE](https://github.com/seigtm/profit_calculator/tree/master/LICENSE) file for details.
 
 Feel free to modify the content to fit your specific needs and preferences!
