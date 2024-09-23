@@ -93,9 +93,8 @@ std::vector<std::vector<double>> calculate_expected_values(const std::vector<std
 std::vector<double> calculate_expected_profits(const std::vector<std::vector<double>>& expected_values) {
     std::vector expected_profits(expected_values.size(), 0.0);
 
-    std::transform(
-        expected_values.begin(),
-        expected_values.end(),
+    std::ranges::transform(
+        expected_values,
         expected_profits.begin(),
         [](const auto& row) {
             return std::accumulate(row.begin(), row.end(), 0.0);
